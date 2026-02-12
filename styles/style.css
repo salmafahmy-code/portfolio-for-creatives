@@ -32,8 +32,8 @@
 /* TODO: Replace these Google Fonts with the ones you want to use on your site. */
 /* Remember, the more fonts you load, the longer it can take for your page to load. */
 
-/*Besley*/
-@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap");
+/*DM Serif*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 /*Be Vietnam*/
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*
@@ -101,52 +101,52 @@
 :root {
   /* Typography */
   --font-family-body: "Be Vietnam Pro", sans-serif;
-  --font-family-heading: "Besley", serif;
-  --font-family-project-title: "Besley", serif;
+  --font-family-heading: "DM Serif Text", serif;
+  --font-family-project-title: "DM Serif Text", serif;
   /* Core Colours */
   --color-text-primary: #222;
   --color-text-secondary: #333;
-  --color-accent-primary: #5200ff;
+  --color-accent-primary: #000000;
   --color-accent-secondary: #ff057c;
-  --color-overlay-primary: rgba(246, 126, 220, 0.5);
+  --color-overlay-primary: rgba(246, 46, 202, 0.5);
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #fdfdfd;
+  --color-bg: #fccef8;
   --color-bg-about: #f5f5f5;
   --color-bg-footer: #f5f5f5;
-  --color-bg-holding-page: rgba(82, 0, 255, 0.6);
+  --color-bg-holding-page: rgba(203, 90, 240, 0.6);
   /* Headings */
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h1-color: #000000;
+  --h2-color: #000000;
+  --h3-color: #000000;
+  --h4-color: #000000;
+  --h5-color: #000000;
+  --h6-color: #000000;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #e04ed8;
+  --color-text-project-title: #c111b8;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #5200ff;
+  --color-link: #c111b8;
   --color-link-hover: #111;
-  --color-link-visited: #5200ff;
+  --color-link-visited: #c111b8;
   /* Navigation */
-  --color-nav-link: #5200ff;
+  --color-nav-link: #c111b8;
   --color-nav-link-hover: #321575;
-  --color-nav-arrow: #5200ff;
+  --color-nav-arrow: #c111b8;
   --color-nav-arrow-hover: #000;
-  --color-nav-arrow-stroke: #5200ff;
+  --color-nav-arrow-stroke: #c111b8;
   --color-nav-arrow-stroke-hover: #000;
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
   --color-bg-sidebar-project: transparent;
   --color-bg-sidebar-work: lemonchiffon;
-  --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
+  --color-gradient-hero: linear-gradient(90deg, #ff00ff, #9d00ff);
   --color-gradient-project-details: linear-gradient(
     -225deg,
     #ff057c 0%,
