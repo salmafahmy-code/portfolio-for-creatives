@@ -106,7 +106,7 @@
   /* Core Colours */
   --color-text-primary: #222;
   --color-text-secondary: #333;
-  --color-accent-primary: #000000;
+  --color-accent-primary: #ffffff;
   --color-accent-secondary: #ff057c;
   --color-overlay-primary: rgba(246, 46, 202, 0.5);
   --color-highlight: lemonchiffon;
@@ -135,7 +135,7 @@
   --color-link-hover: #111;
   --color-link-visited: #cb40bd;
   /* Navigation */
-  --color-nav-link: #cb40bd;
+  --color-nav-link: #ebd3ea;
   --color-nav-link-hover: #000000;
   --color-nav-arrow: #cb40bd;
   --color-nav-arrow-hover: #000;
@@ -525,7 +525,7 @@ sup {
 /* Main hero headline — usually sits in the intro section */
 .hero-headline {
   color: var(--color-accent-primary); /* Uses your brand's dominant color */
-  max-width: 40ch; /* Optimal line length for readability (~40 characters) */
+  max-width: 60ch; /* Optimal line length for readability (~40 characters) */
   text-wrap: balance; /* Prevents awkward line breaks (like elegant typography) */
   margin-inline: auto; /* Horizontally centers the text in its container */
 }
@@ -1402,7 +1402,7 @@ to keep your styles reusable and consistent.
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 3rem;
   }
 
   h2 {
@@ -1454,7 +1454,7 @@ to keep your styles reusable and consistent.
   }
 
   .nav-branding-logo {
-    width: 5rem;
+    width: 2.5rem;
     /* TODO: Adjust the width of the logo on large devices here. */
   }
 
