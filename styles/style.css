@@ -112,9 +112,9 @@
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #fccef8;
+  --color-bg: #fbfbfb;
   --color-bg-about: #f5f5f5;
-  --color-bg-footer: #f5f5f5;
+  --color-bg-footer: #ffffff;
   --color-bg-holding-page: rgba(203, 90, 240, 0.6);
   /* Headings */
   --h1-color: #000000;
@@ -131,15 +131,15 @@
   --color-text-project-title: #c111b8;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #c111b8;
+  --color-link: #cb40bd;
   --color-link-hover: #111;
-  --color-link-visited: #c111b8;
+  --color-link-visited: #cb40bd;
   /* Navigation */
-  --color-nav-link: #c111b8;
-  --color-nav-link-hover: #321575;
-  --color-nav-arrow: #c111b8;
+  --color-nav-link: #cb40bd;
+  --color-nav-link-hover: #000000;
+  --color-nav-arrow: #cb40bd;
   --color-nav-arrow-hover: #000;
-  --color-nav-arrow-stroke: #c111b8;
+  --color-nav-arrow-stroke: #cb40bd;
   --color-nav-arrow-stroke-hover: #000;
   /* Components */
   --color-bg-full-width: #f5f5f5;
@@ -156,7 +156,7 @@
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: #5200ff;
+  --color-bg-selection: #ffffff;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
@@ -471,6 +471,7 @@ h3 {
 }
 
 h4 {
+  font-family: var(--font-family-body);
   font-size: 1.2rem;
   line-height: 1.2;
   margin-bottom: 1rem;
