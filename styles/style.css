@@ -126,7 +126,7 @@
   /* Special Text Colours */
   --color-text-holding-title: #ffffff;
   --color-text-project-category: #000000;
-  --color-text-project-description: #222;
+  --color-text-project-description: #000000;
   --color-text-project-sidebar: #222;
   --color-text-project-title: #c111b8;
   --color-text-work-grid-title: #ffffff;
@@ -473,7 +473,7 @@ h3 {
 h4 {
   font-family: var(--font-family-body);
   font-size: 1.1rem;
-  line-height: 1.2;
+  line-height: 1.8;
   margin-bottom: 1rem;
   color: var(--h4-color);
 }
