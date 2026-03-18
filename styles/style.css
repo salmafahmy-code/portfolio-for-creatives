@@ -128,7 +128,7 @@
   --color-text-project-category: #000000;
   --color-text-project-description: #000000;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #c111b8;
+  --color-text-project-title: #000000;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #bc49a5;
@@ -503,6 +503,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.bio {
+  font-size: 1.225rem;
+  line-height: 1.3;
+}
 strong {
   font-weight: 700; /* Makes text bold */
 }
@@ -532,7 +536,7 @@ sup {
 
 /* Large project title — appears on individual project pages */
 .project-title {
-  font-size: 3.625rem;
+  font-size: 2.625rem;
   font-family: var(--font-family-project-title);
   color: var(--color-text-project-title);
   margin-bottom: 1rem;
@@ -683,7 +687,6 @@ a.nav-link-primary:hover {
 
 .hero {
   width: 100%;
-  min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
 }
@@ -1459,7 +1462,7 @@ to keep your styles reusable and consistent.
   }
 
   .hero {
-    min-height: 100vh;
+    /* add styles here if you want to change the height, etc. */
   }
 
   .hero-headline-wrapper {
