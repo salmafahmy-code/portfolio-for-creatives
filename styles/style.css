@@ -465,6 +465,7 @@ h2 {
 
 h3 {
   font-size: 1.325rem;
+  font-family: var(--font-family-body);
   margin-bottom: 1rem;
   line-height: 1.2;
   color: var(--h3-color);

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 6912 3456">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        mask: url(#mask);
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="4575.1" y="977.8" width="741.7" height="749.7"/>
+    </clipPath>
+    <mask id="mask" x="4575.1" y="977.8" width="742" height="750" maskUnits="userSpaceOnUse">
+      <g id="c2928a1aca">
+        <image class="cls-4" width="1412" height="1426" transform="translate(4575.1 977.8) scale(.5)" xlink:href="pink flower-1.png"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-1">
+    <g class="cls-3">
+      <image class="cls-4" width="1412" height="1426" transform="translate(4575.1 977.8) scale(.5)" xlink:href="pink flower-2.png"/>
+    </g>
+  </g>
+</svg>
